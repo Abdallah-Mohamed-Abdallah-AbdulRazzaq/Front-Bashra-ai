@@ -68,7 +68,7 @@ export function WebPlatformTeaser({ language }: WebPlatformTeaserProps) {
                 {/* Screen Content */}
                 <div className="bg-white rounded-lg overflow-hidden h-80">
                   <img
-                    src="wallpaperflare.com_wallpaper (9).jpg"
+                    src="/11.webp"
                     alt="BASHRA.AI Web Dashboard"
                     className="w-full h-full object-cover"
                   />

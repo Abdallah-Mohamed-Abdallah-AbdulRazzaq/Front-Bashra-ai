@@ -246,7 +246,7 @@ export function Sid2Section({ language }: Sid2SectionProps) {
               }}
             >
               <Image
-                src="/features-mobile.png"
+                src="/2.webp"
                 alt={isRTL ? "مميزات تطبيق بشرى.AI للهاتف المحمول" : "BASHRA.AI Mobile Features"}
                 width={600}
                 height={400}

@@ -159,7 +159,7 @@ export function Sid1Section({ language }: Sid1SectionProps) {
                 }}
               >
                 <Image
-                  src="/mobile-trio.png"
+                  src="/1.webp"
                   alt="BASHRA.AI Mobile Apps"
                   width={800}
                   height={600}

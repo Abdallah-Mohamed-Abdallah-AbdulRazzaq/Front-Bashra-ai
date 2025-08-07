@@ -61,18 +61,18 @@ export function AppFeatures({ language }: AppFeaturesProps) {
         {
           title: "Dashboard Overview",
           description: "Comprehensive health dashboard with AI insights",
-          image: "/h1.jpg",
+          image: "/3.webp",
         },
         {
           title: "AI Diagnosis",
           description: "Instant AI-powered medical analysis",
-          image: "/h2.jpg",
+          image: "/4.webp",
         },
         {
           title: "Health Records",
           description: "Secure digital health record management",
-          image: "/h3.jpg",
-        },
+          image: "/5.webp",
+        }
       ],
     },
     ar: {
@@ -120,17 +120,17 @@ export function AppFeatures({ language }: AppFeaturesProps) {
         {
           title: "نظرة عامة على لوحة التحكم",
           description: "لوحة تحكم صحية شاملة مع رؤى الذكاء الاصطناعي",
-          image: "/h1.jpg",
+          image: "/3.webp",
         },
         {
           title: "تشخيص الذكاء الاصطناعي",
           description: "تحليل طبي فوري مدعوم بالذكاء الاصطناعي",
-          image: "/h2.jpg",
+          image: "/4.webp",
         },
         {
           title: "السجلات الصحية",
           description: "إدارة آمنة للسجلات الصحية الرقمية",
-          image: "/h3.jpg",
+          image: "/5.webp",
         },
       ],
     },
@@ -216,11 +216,11 @@ export function AppFeatures({ language }: AppFeaturesProps) {
                       transition={{ duration: 0.5 }}
                       className="h-full flex flex-col"
                     >
-                      <img
-                        src={content[language].mockups[currentSlide].image || "/placeholder.svg"}
-                        alt={content[language].mockups[currentSlide].title}
-                        className="w-full h-full object-cover"
-                      />
+                    <img
+                      src={content[language].mockups[currentSlide].image || "/placeholder.svg"}
+                      alt={content[language].mockups[currentSlide].title}
+                      className="w-full h-full object-cover p-6"
+                    />
                     </motion.div>
                   </div>
                 </div>

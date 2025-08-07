@@ -143,7 +143,7 @@ export function MobileAppShowcase({ language = "en" }: MobileAppShowcaseProps) {
                     <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-black rounded-b-2xl z-10"></div>
                     {/* App screenshot */}
                     <img
-                      src="/a.png?height=500&width=250&text=iOS+App+Interface"
+                      src="/9.webp?height=500&width=250&text=iOS+App+Interface"
                       alt={t.altTexts.ios}
                       className="w-full h-full object-cover"
                     />
@@ -165,7 +165,7 @@ export function MobileAppShowcase({ language = "en" }: MobileAppShowcaseProps) {
                   <div className="w-full h-full bg-white rounded-[2rem] overflow-hidden relative">
                     {/* App screenshot */}
                     <img
-                      src="/placeholder.svg?height=450&width=220&text=Android+App+Interface"
+                      src="/6.webp?height=450&width=220&text=Android+App+Interface"
                       alt={t.altTexts.android}
                       className="w-full h-full object-cover"
                     />

@@ -75,14 +75,14 @@ export function Navbar({ language, setLanguage }: NavbarProps) {
 
           {/* Action Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button
+            {/* <Button
               variant="outline"
               size="sm"
               className="bg-white/50 backdrop-blur-sm border-blue-200 hover:bg-blue-50"
             >
               <Users className="w-4 h-4 mr-2" />
               {buttons[language].advisory}
-            </Button>
+            </Button> */}
 
             <a
               href="/profile.pdf" // ضع هنا مسار ملف الـ PDF داخل public

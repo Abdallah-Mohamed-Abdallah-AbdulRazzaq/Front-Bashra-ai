@@ -185,12 +185,12 @@ const FeaturedCardsSection = memo(function FeaturedCardsSection() {
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   const cards: Card[] = [
-    { title: "Digital Art", category: "Creative", image: "/w1.jpg" },
-    { title: "Architecture", category: "Design", image: "/w2.jpg" },
-    { title: "Nature", category: "Photography", image: "/w3.jpg" },
-    { title: "Technology", category: "Innovation", image: "/w4.jpg" },
-    { title: "Fashion", category: "Style", image: "/w5.jpg" },
-    { title: "Travel", category: "Adventure", image: "/w6.jpg" },
+    { title: "Digital Art", category: "Creative", image: "/13.1.webp" },
+    { title: "Architecture", category: "Design", image: "/13.2.webp" },
+    { title: "Nature", category: "Photography", image: "/13.3.webp" },
+    { title: "Technology", category: "Innovation", image: "/13.4.webp" },
+    { title: "Fashion", category: "Style", image: "/13.5.webp" },
+    { title: "Travel", category: "Adventure", image: "/13.6.webp" },
   ]
 
   return (
@@ -250,10 +250,10 @@ function CarouselSection() {
   const intervalRef = useRef<NodeJS.Timeout | null>(null)
 
   const slides: Slide[] = [
-    { title: "Innovation Hub", subtitle: "Where ideas come to life", image: "/x1.jpg" },
-    { title: "Creative Studio", subtitle: "Unleashing artistic potential", image: "/x2.jpg" },
-    { title: "Digital Frontier", subtitle: "Exploring new possibilities", image: "/x3.jpg" },
-    { title: "Nature's Canvas", subtitle: "Beauty in its purest form", image: "/x4.jpg" },
+    { title: "Innovation Hub", subtitle: "Where ideas come to life", image: "/16.webp" },
+    { title: "Creative Studio", subtitle: "Unleashing artistic potential", image: "/15.webp" },
+    { title: "Digital Frontier", subtitle: "Exploring new possibilities", image: "/14.webp" },
+    { title: "Nature's Canvas", subtitle: "Beauty in its purest form", image: "/13.6.webp" },
   ]
 
   const nextSlide = useCallback(() => {
@@ -408,19 +408,19 @@ const SplitScreenSection = memo(function SplitScreenSection() {
     {
       title: "Crafted with Precision",
       description: "Every detail matters in creating exceptional digital experiences. Our approach combines artistic vision with technical excellence.",
-      image: "/z1.jpg",
+      image: "/14.webp",
       reverse: false,
     },
     {
       title: "Powered by Innovation",
       description: "Cutting-edge technology meets creative storytelling. We push boundaries to deliver experiences that captivate and inspire.",
-      image: "/z2.jpg",
+      image: "/15.webp",
       reverse: true,
     },
     {
       title: "Built for Tomorrow",
       description: "Future-ready solutions that adapt and evolve. We create digital experiences that stand the test of time.",
-      image: "/z3.jpg",
+      image: "/16.webp",
       reverse: false,
     },
   ]
@@ -503,7 +503,7 @@ function FullWidthBanner() {
     <section ref={ref} className="relative h-screen overflow-hidden">
       <motion.div className="absolute inset-0 will-change-transform" style={{ y }}>
         <Image
-          src="/wallpaperflare.com_wallpaper (31).jpg"
+          src="/12.webp"
           alt="Full width banner"
           fill
           className="object-cover"

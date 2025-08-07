@@ -146,7 +146,7 @@ const MobilePhone = ({ children, className = "" }: { children: React.ReactNode; 
             >
               <MobilePhone>
                 <img 
-                  src="/p1.jpg" 
+                  src="/6.webp" 
                   alt={language === 'ar' ? "واجهة تطبيق إدارة المرضى" : "Patient Management App Interface"}
                   className="w-full h-full object-cover"
                 />
@@ -170,7 +170,7 @@ const MobilePhone = ({ children, className = "" }: { children: React.ReactNode; 
             >
               <MobilePhone>
                 <img 
-                  src="/p2.jpg" 
+                  src="/7.webp" 
                   alt={language === 'ar' ? "واجهة ملف المريض" : "Patient Profile Interface"}
                   className="w-full h-full object-cover"
                 />
@@ -193,7 +193,7 @@ const MobilePhone = ({ children, className = "" }: { children: React.ReactNode; 
             >
               <MobilePhone>
                 <img 
-                  src="/p3.jpg" 
+                  src="/8.webp" 
                   alt={language === 'ar' ? "واجهة لوحة التحكم الطبية" : "Medical Dashboard Interface"}
                   className="w-full h-full object-cover"
                 />

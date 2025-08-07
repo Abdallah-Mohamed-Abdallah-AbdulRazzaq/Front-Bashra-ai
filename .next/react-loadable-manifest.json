@@ -1,1 +1,98 @@
-{}
+{
+  "app\\page.tsx -> @/components/about-platform": {
+    "id": "app\\page.tsx -> @/components/about-platform",
+    "files": [
+      "static/chunks/_app-pages-browser_components_about-platform_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> @/components/app-features": {
+    "id": "app\\page.tsx -> @/components/app-features",
+    "files": [
+      "static/chunks/_app-pages-browser_components_app-features_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> @/components/contact-section": {
+    "id": "app\\page.tsx -> @/components/contact-section",
+    "files": [
+      "static/chunks/_app-pages-browser_components_contact-section_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> @/components/doctor-engagement": {
+    "id": "app\\page.tsx -> @/components/doctor-engagement",
+    "files": [
+      "static/chunks/_app-pages-browser_components_doctor-engagement_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> @/components/hero-section": {
+    "id": "app\\page.tsx -> @/components/hero-section",
+    "files": [
+      "static/chunks/_app-pages-browser_components_hero-section_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> @/components/matching-mobile": {
+    "id": "app\\page.tsx -> @/components/matching-mobile",
+    "files": [
+      "static/chunks/_app-pages-browser_components_matching-mobile_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> @/components/mobile-app-showcase": {
+    "id": "app\\page.tsx -> @/components/mobile-app-showcase",
+    "files": [
+      "static/chunks/_app-pages-browser_components_mobile-app-showcase_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> @/components/navbar": {
+    "id": "app\\page.tsx -> @/components/navbar",
+    "files": [
+      "static/chunks/_app-pages-browser_components_navbar_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> @/components/particle-background": {
+    "id": "app\\page.tsx -> @/components/particle-background",
+    "files": [
+      "static/chunks/_app-pages-browser_components_particle-background_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> @/components/reveal-cards": {
+    "id": "app\\page.tsx -> @/components/reveal-cards",
+    "files": [
+      "static/chunks/_app-pages-browser_components_reveal-cards_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> @/components/sid1-section": {
+    "id": "app\\page.tsx -> @/components/sid1-section",
+    "files": [
+      "static/chunks/_app-pages-browser_components_sid1-section_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> @/components/sid2-section": {
+    "id": "app\\page.tsx -> @/components/sid2-section",
+    "files": [
+      "static/chunks/_app-pages-browser_components_sid2-section_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> @/components/testimonials": {
+    "id": "app\\page.tsx -> @/components/testimonials",
+    "files": [
+      "static/chunks/_app-pages-browser_components_testimonials_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> @/components/web-app-promotion": {
+    "id": "app\\page.tsx -> @/components/web-app-promotion",
+    "files": [
+      "static/chunks/_app-pages-browser_components_web-app-promotion_tsx.js"
+    ]
+  },
+  "app\\page.tsx -> @/components/web-platform-teaser": {
+    "id": "app\\page.tsx -> @/components/web-platform-teaser",
+    "files": [
+      "static/chunks/_app-pages-browser_components_web-platform-teaser_tsx.js"
+    ]
+  },
+  "node_modules\\next\\dist\\client\\components\\react-dev-overlay\\utils\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts": {
+    "id": "node_modules\\next\\dist\\client\\components\\react-dev-overlay\\utils\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_next_dist_client_dev_noop-turbopack-hmr_js.js"
+    ]
+  }
+}

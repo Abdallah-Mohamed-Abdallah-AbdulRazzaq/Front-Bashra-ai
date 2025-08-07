@@ -245,7 +245,7 @@ export function WebAppPromotion({ language = "en" }: WebAppPromotionProps) {
                     </div>
                     {/* Website Interface */}
                     <img
-                      src="/a.png?height=220&width=360&text=Web+Dashboard+Interface"
+                      src="/10.webp?height=220&width=360&text=Web+Dashboard+Interface"
                       alt={t.altText}
                       className="w-full h-full object-cover"
                     />
