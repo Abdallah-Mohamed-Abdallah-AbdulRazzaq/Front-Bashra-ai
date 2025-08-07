@@ -6,7 +6,7 @@ import { ChevronLeft, ChevronRight, Play, ArrowRight } from "lucide-react"
 import Image from "next/image"
 import dynamic from "next/dynamic"
 
-// Lazy load heavy components
+// Lazy load heavy components katcj
 const HeroSection = dynamic(() => import("@/components/hero-section").then(mod => ({ default: mod.HeroSection })), {
   loading: () => <div className="h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100" />
 })
